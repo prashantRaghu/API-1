@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "3b4e94e1-eccd-462b-a6d9-309616fff3d3",
+		"name": "New 111",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "889210-3b4e94e1-eccd-462b-a6d9-309616fff3d3"
+	},
+	"item": [
+		{
+			"name": "New Req",
+			"id": "236a9557-0bfd-4960-91da-734022d8f1eb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
