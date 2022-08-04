@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: '1.0.0'
-  title: 'Sample DefinitionDefinitionDefinition'
+  title: 'I am root'
   license:
     name: MIT License
 servers:
