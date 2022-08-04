@@ -5,7 +5,7 @@ info:
   license:
     name: MIT License
 servers:
-  - url: 'localhost:3000'
+  - url: 'localhost:'
 paths:
   /user:
     get:
