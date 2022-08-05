@@ -1,37 +1,20 @@
 {
-	"type": "collection",
-	"name": "--- ISC 2#---",
+	"owner": "889210",
+	"uid": "889210-889210-aac8cbca-2557-4109-948e-359601aabfda",
+	"foldersOrder": [],
+	"variables": [],
 	"id": "889210-aac8cbca-2557-4109-948e-359601aabfda",
-	"_attributes": {
-		"flags": {
-			"id": "aac8cbca-2557-4109-948e-359601aabfda"
-		}
-	},
-	"isPending": false,
-	"isDeleting": false,
-	"_foldersOrder": [],
-	"_pendingFoldersOrder": [],
-	"_order": [],
-	"_pendingOrder": [],
-	"initialVariables": null,
-	"events": null,
+	"name": "--- ISC 2",
+	"description": null,
+	"order": [],
+	"folders_order": [],
 	"auth": null,
 	"protocolProfileBehavior": {},
-	"description": null,
 	"createdAt": "2022-08-03T09:42:13.000Z",
-	"isForked": false,
-	"isPublic": false,
-	"isEditable": true,
-	"isDeletable": true,
-	"isArchived": false,
-	"isFavorite": false,
-	"isShareable": true,
-	"userCanCreateMock": true,
-	"userCanCreateMonitor": true,
-	"owner": "889210",
-	"foldersOrder": [],
-	"order": [],
+	"events": null,
+	"options": {
+		"type": "readWrite"
+	},
 	"folders": [],
-	"requests": [],
-	"variables": null
+	"requests": []
 }
