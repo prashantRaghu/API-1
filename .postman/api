@@ -1,6 +1,0 @@
-[relations]
---- ISC 1\#---.json = test
---- ISC 2\#---.json = documentation
->>>>>>>>> Head = true
-<<<<<<<<< feature = true
---- ISC 2\#---_889210-aac8cbca-2557-4109-948e-359601aabfda.json = test
