@@ -1,0 +1,170 @@
+{
+	"id": "700a0b33-fd31-4c57-ae82-b8815a17209b",
+	"name": "v1formatCollection",
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
+				"type": "string"
+			}
+		]
+	},
+	"events": [],
+	"variables": [
+		{
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	],
+	"order": [
+		"79525807-53d0-465a-9d5a-82242f6e8a49"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "79525807-53d0-465a-9d5a-82242f6e8a49",
+			"name": "Sample endpoint: Returns details about a particular user",
+			"collectionId": "91130d7d-75aa-4f00-b595-f28a9cdd0ba0",
+			"method": "GET",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"auth": null,
+			"headers": "Accept: application/json",
+			"pathVariables": {},
+			"tests": "",
+			"preRequestScript": "",
+			"url": "{{baseUrl}}/user?id=24381074",
+			"responses": [
+				{
+					"request": {
+						"id": "c1eae902-87d6-4de1-b8a1-8147a7c19878",
+						"method": "GET",
+						"headers": "Authorization: Basic <credentials>",
+						"pathVariables": {},
+						"url": "{{baseUrl}}/user?id=24381074",
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "id",
+								"value": "24381074"
+							}
+						],
+						"headerData": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						]
+					},
+					"requestObject": "{\"id\":\"c1eae902-87d6-4de1-b8a1-8147a7c19878\",\"method\":\"GET\",\"headers\":\"Authorization: Basic <credentials>\",\"pathVariables\":{},\"url\":\"{{baseUrl}}/user?id=24381074\",\"pathVariableData\":[],\"queryParams\":[{\"key\":\"id\",\"value\":\"24381074\"}],\"headerData\":[{\"description\":\"Added as a part of security scheme: basic\",\"key\":\"Authorization\",\"value\":\"Basic <credentials>\"}]}",
+					"id": "d3d4306d-909d-4486-85b9-cdc3385f3927",
+					"name": "Sample response: Details about a user by ID",
+					"status": "OK",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": ""
+					},
+					"language": "json",
+					"previewType": "html",
+					"headers": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "tempor labore et veniam sint"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookies": [],
+					"text": "{\n  \"id\": 99137686,\n  \"name\": \"tempor dolor consequat\",\n  \"tag\": \"sit fugiat ex magna ullamco\"\n}",
+					"rawDataType": "text"
+				},
+				{
+					"request": {
+						"id": "ef4a197c-dc40-49c0-8c2c-eede17e9d0aa",
+						"method": "GET",
+						"headers": "Authorization: Basic <credentials>",
+						"pathVariables": {},
+						"url": "{{baseUrl}}/user?id=24381074",
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "id",
+								"value": "24381074"
+							}
+						],
+						"headerData": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						]
+					},
+					"requestObject": "{\"id\":\"ef4a197c-dc40-49c0-8c2c-eede17e9d0aa\",\"method\":\"GET\",\"headers\":\"Authorization: Basic <credentials>\",\"pathVariables\":{},\"url\":\"{{baseUrl}}/user?id=24381074\",\"pathVariableData\":[],\"queryParams\":[{\"key\":\"id\",\"value\":\"24381074\"}],\"headerData\":[{\"description\":\"Added as a part of security scheme: basic\",\"key\":\"Authorization\",\"value\":\"Basic <credentials>\"}]}",
+					"id": "f867c116-0949-47d4-b4ce-7e176b92d512",
+					"name": "Unexpected error",
+					"status": "Internal Server Error",
+					"responseCode": {
+						"code": 500,
+						"name": "Internal Server Error",
+						"detail": ""
+					},
+					"language": "json",
+					"previewType": "html",
+					"headers": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookies": [],
+					"text": "{\n  \"code\": -68284406,\n  \"message\": \"dolore occaecat\"\n}",
+					"rawDataType": "text"
+				}
+			],
+			"responses_order": [
+				"d3d4306d-909d-4486-85b9-cdc3385f3927",
+				"f867c116-0949-47d4-b4ce-7e176b92d512"
+			],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "24381074",
+					"description": "(Required) ID of the user",
+					"enabled": true
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection": "700a0b33-fd31-4c57-ae82-b8815a17209b"
+		}
+	],
+	"originalFormat": "1.0.0",
+	"options": {
+		"type": "readWrite"
+	},
+	"owner": "889210"
+}
