@@ -5,5 +5,18 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "889210-c5c524ed-8f6d-4e69-bedb-78b3b46429f6"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "Req on The Repo",
+			"id": "81b798ed-5424-4bc6-ad8b-805558f6a930",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
 }
