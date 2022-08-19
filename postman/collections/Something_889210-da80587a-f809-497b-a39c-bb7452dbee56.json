@@ -1,72 +1,74 @@
 {
+	"info": {
+		"_postman_id": "da80587a-f809-497b-a39c-bb7452dbee56",
+		"name": "Something44",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "889210-da80587a-f809-497b-a39c-bb7452dbee56"
+	},
 	"item": [
 		{
-			"id": "138610a4-1690-481b-b245-97e6c56bd687",
 			"name": "Sample endpoint: Returns details about a particular user",
+			"id": "138610a4-1690-481b-b245-97e6c56bd687",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"name": "Sample endpoint: Returns details about a particular user",
-				"description": {},
-				"url": {
-					"path": [
-						"user"
-					],
-					"host": [
-						"{{baseUrl}}"
-					],
-					"query": [
-						{
-							"disabled": false,
-							"key": "id",
-							"value": "-84457043",
-							"description": "(Required) ID of the user"
-						}
-					],
-					"variable": []
-				},
+				"method": "GET",
 				"header": [
 					{
 						"key": "Accept",
 						"value": "application/json"
 					}
 				],
-				"method": "GET",
-				"auth": null
+				"url": {
+					"raw": "{{baseUrl}}/user?id=-84457043",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "-84457043",
+							"description": "(Required) ID of the user"
+						}
+					]
+				}
 			},
 			"response": [
 				{
 					"id": "f55105c7-ec30-429f-9826-5a22a7ec115f",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
 						"url": {
-							"path": [
-								"user"
-							],
+							"raw": "{{baseUrl}}/user?id=-84457043",
 							"host": [
 								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
 							],
 							"query": [
 								{
 									"key": "id",
 									"value": "-84457043"
 								}
-							],
-							"variable": []
-						},
-						"header": [
-							{
-								"description": {
-									"content": "Added as a part of security scheme: basic",
-									"type": "text/plain"
-								},
-								"key": "Authorization",
-								"value": "Basic <credentials>"
-							}
-						],
-						"method": "GET",
-						"body": {}
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
+					"_postman_previewlanguage": "json",
 					"header": [
 						{
 							"disabled": false,
@@ -79,67 +81,50 @@
 							"value": "application/json"
 						}
 					],
-					"body": "{\n  \"id\": 19275258,\n  \"name\": \"id in Duis aute elit\",\n  \"tag\": \"ad sint officia consectetur\"\n}",
 					"cookie": [],
-					"_postman_previewlanguage": "json"
+					"body": "{\n  \"id\": 19275258,\n  \"name\": \"id in Duis aute elit\",\n  \"tag\": \"ad sint officia consectetur\"\n}"
 				},
 				{
 					"id": "ff9cf389-6c96-4e88-9634-df0aaf4d1e53",
 					"name": "Unexpected error",
 					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
 						"url": {
-							"path": [
-								"user"
-							],
+							"raw": "{{baseUrl}}/user?id=-84457043",
 							"host": [
 								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
 							],
 							"query": [
 								{
 									"key": "id",
 									"value": "-84457043"
 								}
-							],
-							"variable": []
-						},
-						"header": [
-							{
-								"description": {
-									"content": "Added as a part of security scheme: basic",
-									"type": "text/plain"
-								},
-								"key": "Authorization",
-								"value": "Basic <credentials>"
-							}
-						],
-						"method": "GET",
-						"body": {}
+							]
+						}
 					},
 					"status": "Internal Server Error",
 					"code": 500,
+					"_postman_previewlanguage": "json",
 					"header": [
 						{
 							"key": "Content-Type",
 							"value": "application/json"
 						}
 					],
-					"body": "{\n  \"code\": 20430395,\n  \"message\": \"aliqua et occaecat\"\n}",
 					"cookie": [],
-					"_postman_previewlanguage": "json"
+					"body": "{\n  \"code\": 20430395,\n  \"message\": \"aliqua et occaecat\"\n}"
 				}
-			],
-			"event": [],
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			}
-		}
-	],
-	"event": [],
-	"variable": [
-		{
-			"type": "string",
-			"value": "localhost:3000",
-			"key": "baseUrl"
+			]
 		}
 	],
 	"auth": {
@@ -147,21 +132,22 @@
 		"basic": [
 			{
 				"key": "username",
-				"value": "<Basic Auth Username>"
+				"value": "<Basic Auth Username>",
+				"type": "string"
 			},
 			{
 				"key": "password",
-				"value": "<Basic Auth Password>"
+				"value": "<Basic Auth Password>",
+				"type": "string"
 			}
 		]
 	},
-	"info": {
-		"_postman_id": "da80587a-f809-497b-a39c-bb7452dbee56",
-		"name": "Something",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"description": {
-			"content": "",
-			"type": "text/plain"
+	"variable": [
+		{
+			"id": "a6fb37e9-60e7-4d58-a75c-d3b6362fb497",
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
 		}
-	}
+	]
 }
