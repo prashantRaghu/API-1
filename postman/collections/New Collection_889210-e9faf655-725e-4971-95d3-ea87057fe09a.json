@@ -1,0 +1,54 @@
+{
+	"type": "collection",
+	"name": "New Collection",
+	"id": "889210-e9faf655-725e-4971-95d3-ea87057fe09a",
+	"_attributes": {
+		"permissions": {
+			"userCanUpdate": true,
+			"userCanDelete": true,
+			"userCanShare": true,
+			"userCanCreateMock": true,
+			"userCanCreateMonitor": true,
+			"anybodyCanView": false,
+			"teamCanView": false
+		},
+		"fork": null,
+		"flags": {
+			"isArchived": false,
+			"isFavorite": false
+		},
+		"parent": {
+			"type": "api",
+			"id": "2604539d-b71f-4fbd-99a0-935a03392b0b"
+		}
+	},
+	"isPending": false,
+	"isDeleting": false,
+	"_foldersOrder": [],
+	"_pendingFoldersOrder": [],
+	"_order": [],
+	"_pendingOrder": [],
+	"initialVariables": null,
+	"events": null,
+	"auth": null,
+	"protocolProfileBehavior": {},
+	"description": null,
+	"createdAt": "2022-08-19T10:58:29.769Z",
+	"isForked": null,
+	"baseCollectionUid": null,
+	"forkLabel": null,
+	"isPublic": false,
+	"isEditable": true,
+	"isDeletable": true,
+	"isArchived": false,
+	"isFavorite": false,
+	"isShareable": true,
+	"userCanCreateMock": true,
+	"userCanCreateMonitor": true,
+	"owner": "889210",
+	"foldersOrder": [],
+	"order": [],
+	"folders": [],
+	"requests": [],
+	"variables": null
+}

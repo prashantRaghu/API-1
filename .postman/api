@@ -1,4 +1,4 @@
-id = 51af6b36-308a-4092-bd1d-44e7c54e0b14
+id = 2604539d-b71f-4fbd-99a0-935a03392b0b
 
 [relations]
 
@@ -6,6 +6,7 @@ id = 51af6b36-308a-4092-bd1d-44e7c54e0b14
 rootDirectory = postman/collections
 files[] = {"id":"da80587a-f809-497b-a39c-bb7452dbee56","path":"Something_889210-da80587a-f809-497b-a39c-bb7452dbee56.json","metaData":{}}
 files[] = {"id":"da80587a-f809-497b-a49c-bb74521bee56","path":"newFile.json","metaData":{}}
+files[] = {"id":"889210-e9faf655-725e-4971-95d3-ea87057fe09a","path":"New Collection_889210-e9faf655-725e-4971-95d3-ea87057fe09a.json","metaData":{}}
 
 [relations.collections.metaData]
 
@@ -13,6 +14,6 @@ files[] = {"id":"da80587a-f809-497b-a49c-bb74521bee56","path":"newFile.json","me
 rootDirectory = postman/schemas
 files[] = {"path":"index.yaml","metaData":{}}
 files[] = {"path":"OnMain.yaml","metaData":{}}
-files[] = {"path":"WS.yaml","metaData":{}}
+files[] = {"path":"WS22.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
