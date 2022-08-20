@@ -1,0 +1,23 @@
+id = 20b5fd23-c378-48a2-a8e3-ea30f233b9c2
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"OnMains.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+elations.apiDefinition] = true
+rootDirectory = postman/schemas
+files[] = {"path":"OnMains.yaml","metaData":{}}
+type = openapi:3
+n.metaData]
+elations.apiDefinition] = true
+rootDirectory = postman/schemas
+files[] = {"path":"OnMains.yaml","metaData":{}}
+type = openapi:3

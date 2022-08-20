@@ -1,6 +1,22 @@
 {
+	"owner": "889210",
+	"uid": "889210-700a0b33-fd31-4c57-ae82-b8815a17209b",
+	"foldersOrder": [],
+	"variables": [
+		{
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string",
+			"disabled": false
+		}
+	],
 	"id": "700a0b33-fd31-4c57-ae82-b8815a17209b",
-	"name": "v1formatCollection",
+	"name": "v1formatted",
+	"description": "",
+	"order": [
+		"79525807-53d0-465a-9d5a-82242f6e8a49"
+	],
+	"folders_order": [],
 	"auth": {
 		"type": "basic",
 		"basic": [
@@ -16,39 +32,81 @@
 			}
 		]
 	},
+	"protocolProfileBehavior": {},
+	"createdAt": null,
 	"events": [],
-	"variables": [
-		{
-			"key": "baseUrl",
-			"value": "localhost:3000",
-			"type": "string"
+	"options": {
+		"type": "readWrite"
+	},
+	"meta": {
+		"parent": {
+			"type": "api",
+			"id": "20b5fd23-c378-48a2-a8e3-ea30f233b9c2",
+			"apiVersionId": "94487948-97cb-49f9-a1b9-43091ea9f6ae",
+			"mode": {
+				"name": "branch",
+				"value": "main"
+			}
 		}
-	],
-	"order": [
-		"79525807-53d0-465a-9d5a-82242f6e8a49"
-	],
-	"folders_order": [],
+	},
 	"folders": [],
 	"requests": [
 		{
+			"owner": "889210",
+			"uid": "889210-79525807-53d0-465a-9d5a-82242f6e8a49",
 			"id": "79525807-53d0-465a-9d5a-82242f6e8a49",
-			"name": "Sample endpoint: Returns details about a particular user",
-			"collectionId": "91130d7d-75aa-4f00-b595-f28a9cdd0ba0",
+			"name": "Sample : Returns details about a particular user",
+			"description": "",
 			"method": "GET",
-			"currentHelper": null,
-			"helperAttributes": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"folder": "",
+			"collection": "700a0b33-fd31-4c57-ae82-b8815a17209b",
+			"auth": null,
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "24381074",
+					"description": "(Required) ID of the user",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"url": "{{baseUrl}}/user?id=24381074",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
-			"auth": null,
-			"headers": "Accept: application/json",
-			"pathVariables": {},
-			"tests": "",
-			"preRequestScript": "",
-			"url": "{{baseUrl}}/user?id=24381074",
+			"createdAt": null,
+			"events": null,
+			"responses_order": [
+				"d3d4306d-909d-4486-85b9-cdc3385f3927",
+				"f867c116-0949-47d4-b4ce-7e176b92d512"
+			],
 			"responses": [
 				{
-					"request": {
+					"owner": "889210",
+					"uid": "889210-d3d4306d-909d-4486-85b9-cdc3385f3927",
+					"id": "d3d4306d-909d-4486-85b9-cdc3385f3927",
+					"name": "Sample response: Details about a user by ID",
+					"request": "79525807-53d0-465a-9d5a-82242f6e8a49",
+					"collection": "700a0b33-fd31-4c57-ae82-b8815a17209b",
+					"status": "OK",
+					"mime": "",
+					"language": "json",
+					"text": "{\n  \"id\": 99137686,\n  \"name\": \"tempor dolor consequat\",\n  \"tag\": \"sit fugiat ex magna ullamco\"\n}",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": ""
+					},
+					"requestObject": {
 						"id": "c1eae902-87d6-4de1-b8a1-8147a7c19878",
 						"method": "GET",
 						"headers": "Authorization: Basic <credentials>",
@@ -67,19 +125,10 @@
 								"key": "Authorization",
 								"value": "Basic <credentials>"
 							}
-						]
+						],
+						"dataMode": null,
+						"data": null
 					},
-					"requestObject": "{\"id\":\"c1eae902-87d6-4de1-b8a1-8147a7c19878\",\"method\":\"GET\",\"headers\":\"Authorization: Basic <credentials>\",\"pathVariables\":{},\"url\":\"{{baseUrl}}/user?id=24381074\",\"pathVariableData\":[],\"queryParams\":[{\"key\":\"id\",\"value\":\"24381074\"}],\"headerData\":[{\"description\":\"Added as a part of security scheme: basic\",\"key\":\"Authorization\",\"value\":\"Basic <credentials>\"}]}",
-					"id": "d3d4306d-909d-4486-85b9-cdc3385f3927",
-					"name": "Sample response: Details about a user by ID",
-					"status": "OK",
-					"responseCode": {
-						"code": 200,
-						"name": "OK",
-						"detail": ""
-					},
-					"language": "json",
-					"previewType": "html",
 					"headers": [
 						{
 							"disabled": false,
@@ -93,11 +142,25 @@
 						}
 					],
 					"cookies": [],
-					"text": "{\n  \"id\": 99137686,\n  \"name\": \"tempor dolor consequat\",\n  \"tag\": \"sit fugiat ex magna ullamco\"\n}",
-					"rawDataType": "text"
+					"createdAt": null
 				},
 				{
-					"request": {
+					"owner": "889210",
+					"uid": "889210-f867c116-0949-47d4-b4ce-7e176b92d512",
+					"id": "f867c116-0949-47d4-b4ce-7e176b92d512",
+					"name": "Unexpected error",
+					"request": "79525807-53d0-465a-9d5a-82242f6e8a49",
+					"collection": "700a0b33-fd31-4c57-ae82-b8815a17209b",
+					"status": "Internal Server Error",
+					"mime": "",
+					"language": "json",
+					"text": "{\n  \"code\": -68284406,\n  \"message\": \"dolore occaecat\"\n}",
+					"responseCode": {
+						"code": 500,
+						"name": "Internal Server Error",
+						"detail": ""
+					},
+					"requestObject": {
 						"id": "ef4a197c-dc40-49c0-8c2c-eede17e9d0aa",
 						"method": "GET",
 						"headers": "Authorization: Basic <credentials>",
@@ -116,19 +179,10 @@
 								"key": "Authorization",
 								"value": "Basic <credentials>"
 							}
-						]
+						],
+						"dataMode": null,
+						"data": null
 					},
-					"requestObject": "{\"id\":\"ef4a197c-dc40-49c0-8c2c-eede17e9d0aa\",\"method\":\"GET\",\"headers\":\"Authorization: Basic <credentials>\",\"pathVariables\":{},\"url\":\"{{baseUrl}}/user?id=24381074\",\"pathVariableData\":[],\"queryParams\":[{\"key\":\"id\",\"value\":\"24381074\"}],\"headerData\":[{\"description\":\"Added as a part of security scheme: basic\",\"key\":\"Authorization\",\"value\":\"Basic <credentials>\"}]}",
-					"id": "f867c116-0949-47d4-b4ce-7e176b92d512",
-					"name": "Unexpected error",
-					"status": "Internal Server Error",
-					"responseCode": {
-						"code": 500,
-						"name": "Internal Server Error",
-						"detail": ""
-					},
-					"language": "json",
-					"previewType": "html",
 					"headers": [
 						{
 							"key": "Content-Type",
@@ -136,35 +190,11 @@
 						}
 					],
 					"cookies": [],
-					"text": "{\n  \"code\": -68284406,\n  \"message\": \"dolore occaecat\"\n}",
-					"rawDataType": "text"
+					"createdAt": null
 				}
 			],
-			"responses_order": [
-				"d3d4306d-909d-4486-85b9-cdc3385f3927",
-				"f867c116-0949-47d4-b4ce-7e176b92d512"
-			],
-			"pathVariableData": [],
-			"queryParams": [
-				{
-					"key": "id",
-					"value": "24381074",
-					"description": "(Required) ID of the user",
-					"enabled": true
-				}
-			],
-			"headerData": [
-				{
-					"key": "Accept",
-					"value": "application/json"
-				}
-			],
-			"collection": "700a0b33-fd31-4c57-ae82-b8815a17209b"
+			"headers": "Accept: application/json\n",
+			"pathVariables": {}
 		}
-	],
-	"originalFormat": "1.0.0",
-	"options": {
-		"type": "readWrite"
-	},
-	"owner": "889210"
+	]
 }
