@@ -4,12 +4,6 @@ id = 20b5fd23-c378-48a2-a8e3-ea30f233b9c2
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"889210-711fb9c7-d4ba-4282-a361-0dc114488748","path":"kj413_889210-711fb9c7-d4ba-4282-a361-0dc114488748.json","metaData":{}}
-files[] = {"id":"889210-f73e7849-e302-4b03-ba6f-9080f4e67c77","path":"linktoApi_889210-f73e7849-e302-4b03-ba6f-9080f4e67c77.json","metaData":{}}
-files[] = {"id":"2d32fdbd-b23a-46fc-a146-5feea3bc13b6","path":"CNameWithoutSpace_889210-2d32fdbd-b23a-46fc-a146-5feea3bc13b6.json","metaData":{}}
-files[] = {"id":"889210-bd17476f-1421-45f7-82be-c48f169a38df","path":"r3_889210-bd17476f-1421-45f7-82be-c48f169a38df.json","metaData":{}}
-files[] = {"id":"889210-69e2a180-712c-4c4d-9031-a9171b154e53","path":"New Collection_889210-69e2a180-712c-4c4d-9031-a9171b154e53.json","metaData":{}}
-files[] = {"id":"889210-11e50e7e-0d59-4728-b2af-85eda95edca4","path":"r3_889210-11e50e7e-0d59-4728-b2af-85eda95edca4.json","metaData":{}}
 
 [relations.collections.metaData]
 
