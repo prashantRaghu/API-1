@@ -3,23 +3,8 @@
 	"name": "linktoApi",
 	"id": "889210-f73e7849-e302-4b03-ba6f-9080f4e67c77",
 	"_attributes": {
-		"permissions": {
-			"userCanUpdate": true,
-			"userCanDelete": true,
-			"userCanShare": true,
-			"userCanCreateMock": true,
-			"userCanCreateMonitor": true,
-			"anybodyCanView": false,
-			"teamCanView": false
-		},
-		"fork": null,
 		"flags": {
-			"isArchived": false,
-			"isFavorite": false
-		},
-		"parent": {
-			"type": "api",
-			"id": "20b5fd23-c378-48a2-a8e3-ea30f233b9c2"
+			"id": "f73e7849-e302-4b03-ba6f-9080f4e67c77"
 		}
 	},
 	"isPending": false,
@@ -28,11 +13,13 @@
 	"_pendingFoldersOrder": [],
 	"_order": [],
 	"_pendingOrder": [],
-	"initialVariables": [],
-	"description": "",
-	"isForked": null,
-	"baseCollectionUid": null,
-	"forkLabel": null,
+	"initialVariables": null,
+	"events": null,
+	"auth": null,
+	"protocolProfileBehavior": {},
+	"description": null,
+	"createdAt": "2022-08-20T15:33:28.000Z",
+	"isForked": false,
 	"isPublic": false,
 	"isEditable": true,
 	"isDeletable": true,
@@ -46,5 +33,5 @@
 	"order": [],
 	"folders": [],
 	"requests": [],
-	"variables": []
+	"variables": null
 }
