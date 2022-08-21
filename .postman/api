@@ -15,7 +15,7 @@ files[] = {"id":"889210-11e50e7e-0d59-4728-b2af-85eda95edca4","path":"r3_889210-
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMainsFromLocal.yaml","metaData":{}}
 files[] = {"path":"OnMain.yaml","metaData":{}}
 files[] = {"path":"W.yaml","metaData":{}}
 files[] = {"path":"index.yaml","metaData":{}}
