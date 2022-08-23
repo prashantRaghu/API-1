@@ -4,20 +4,35 @@ id = 20b5fd23-c378-48a2-a8e3-ea30f233b9c2
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"472764be-1b1a-45a3-96a9-bdf19f9b861c","path":"Generateeeed_889210-472764be-1b1a-45a3-96a9-bdf19f9b861c.json","metaData":{}}
+files[] = {"id":"700a0b33-fd31-4c57-ae82-b8815a17209b","path":"v1formatCollection_700a0b33-fd31-4c57-ae82-b8815a17209b.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMainsFromLocal.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 elations.apiDefinition] = true
 rootDirectory = postman/schemas
 files[] = {"path":"OnMains.yaml","metaData":{}}
-type = openapi:3
-n.metaData]
-elations.apiDefinition] = true
-rootDirectory = postman/schemas
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
+files[] = {"path":"OnMains.yaml","metaData":{}}
 files[] = {"path":"OnMains.yaml","metaData":{}}
 type = openapi:3
+n.metaData] = true
+schemas = true
+ = {"path":"OnMains.yaml","metaData":{}}
