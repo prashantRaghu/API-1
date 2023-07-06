@@ -1,0 +1,37 @@
+{
+    "get": {
+        "summary": "Read a spacecraft",
+        "responses": {
+            "200": {
+                "description": "The spacecraft corresponding to the provided `spacecraftId`",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "http://127.0.0.1:8080/Spacecraft.json#components/schemas/Spacecraft"
+                        }
+                    }
+                }
+            },
+            "404": {
+                "description": "No spacecraft found for the provided `spacecraftId`",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "http://127.0.0.1:8080/Error.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": "Unexpected error",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "http://127.0.0.1:8080/Error.json"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
